@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E3A909B8CBAD913E390FB51 /* Pods_Ripple_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286CD19DD0A545F2F32648E6 /* Pods_Ripple_Tracker.framework */; };
+		DDA92F07226FBF7B002875F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA92F06226FBF7B002875F6 /* AppDelegate.swift */; };
+		DDA92F09226FBF7B002875F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA92F08226FBF7B002875F6 /* ViewController.swift */; };
+		DDA92F0C226FBF7B002875F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA92F0A226FBF7B002875F6 /* Main.storyboard */; };
+		DDA92F0E226FBF7C002875F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA92F0D226FBF7C002875F6 /* Assets.xcassets */; };
+		DDA92F11226FBF7C002875F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA92F0F226FBF7C002875F6 /* LaunchScreen.storyboard */; };
+		DDA92F19226FCF99002875F6 /* priceBg.gif in Resources */ = {isa = PBXBuildFile; fileRef = DDA92F18226FCF99002875F6 /* priceBg.gif */; };
+		DDA92F1B226FD040002875F6 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA92F1A226FD040002875F6 /* UIImage+Gif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		286CD19DD0A545F2F32648E6 /* Pods_Ripple_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripple_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81539F951F1429A2F27C320 /* Pods-Ripple Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Ripple Tracker/Pods-Ripple Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EC469A299D860443412938 /* Pods-Ripple Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ripple Tracker.release.xcconfig"; path = "Target Support Files/Pods-Ripple Tracker/Pods-Ripple Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		DDA92F03226FBF7B002875F6 /* Ripple Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ripple Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA92F06226FBF7B002875F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDA92F08226FBF7B002875F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDA92F0B226FBF7B002875F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDA92F0D226FBF7C002875F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA92F10226FBF7C002875F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDA92F12226FBF7C002875F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA92F18226FCF99002875F6 /* priceBg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = priceBg.gif; sourceTree = "<group>"; };
+		DDA92F1A226FD040002875F6 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA92F00226FBF7B002875F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3A909B8CBAD913E390FB51 /* Pods_Ripple_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0486DD4AB70C03ACAA2B590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				286CD19DD0A545F2F32648E6 /* Pods_Ripple_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA92EFA226FBF7B002875F6 = {
+			isa = PBXGroup;
+			children = (
+				DDA92F05226FBF7B002875F6 /* Ripple Tracker */,
+				DDA92F04226FBF7B002875F6 /* Products */,
+				ED2209FC7E4F83E0F2F3BD40 /* Pods */,
+				B0486DD4AB70C03ACAA2B590 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA92F04226FBF7B002875F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA92F03226FBF7B002875F6 /* Ripple Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA92F05226FBF7B002875F6 /* Ripple Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				DDA92F1A226FD040002875F6 /* UIImage+Gif.swift */,
+				DDA92F18226FCF99002875F6 /* priceBg.gif */,
+				DDA92F06226FBF7B002875F6 /* AppDelegate.swift */,
+				DDA92F08226FBF7B002875F6 /* ViewController.swift */,
+				DDA92F0A226FBF7B002875F6 /* Main.storyboard */,
+				DDA92F0D226FBF7C002875F6 /* Assets.xcassets */,
+				DDA92F0F226FBF7C002875F6 /* LaunchScreen.storyboard */,
+				DDA92F12226FBF7C002875F6 /* Info.plist */,
+			);
+			path = "Ripple Tracker";
+			sourceTree = "<group>";
+		};
+		ED2209FC7E4F83E0F2F3BD40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81539F951F1429A2F27C320 /* Pods-Ripple Tracker.debug.xcconfig */,
+				B1EC469A299D860443412938 /* Pods-Ripple Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA92F02226FBF7B002875F6 /* Ripple Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA92F15226FBF7C002875F6 /* Build configuration list for PBXNativeTarget "Ripple Tracker" */;
+			buildPhases = (
+				907BF5C19936CF6037C55B9D /* [CP] Check Pods Manifest.lock */,
+				DDA92EFF226FBF7B002875F6 /* Sources */,
+				DDA92F00226FBF7B002875F6 /* Frameworks */,
+				DDA92F01226FBF7B002875F6 /* Resources */,
+				7A11026D48A80874DA6B27FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ripple Tracker";
+			productName = "Ripple Tracker";
+			productReference = DDA92F03226FBF7B002875F6 /* Ripple Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA92EFB226FBF7B002875F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Suciuss;
+				TargetAttributes = {
+					DDA92F02226FBF7B002875F6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DDA92EFE226FBF7B002875F6 /* Build configuration list for PBXProject "Ripple Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA92EFA226FBF7B002875F6;
+			productRefGroup = DDA92F04226FBF7B002875F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA92F02226FBF7B002875F6 /* Ripple Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA92F01226FBF7B002875F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA92F11226FBF7C002875F6 /* LaunchScreen.storyboard in Resources */,
+				DDA92F0E226FBF7C002875F6 /* Assets.xcassets in Resources */,
+				DDA92F0C226FBF7B002875F6 /* Main.storyboard in Resources */,
+				DDA92F19226FCF99002875F6 /* priceBg.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A11026D48A80874DA6B27FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ripple Tracker/Pods-Ripple Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ripple Tracker/Pods-Ripple Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907BF5C19936CF6037C55B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ripple Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA92EFF226FBF7B002875F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA92F1B226FD040002875F6 /* UIImage+Gif.swift in Sources */,
+				DDA92F09226FBF7B002875F6 /* ViewController.swift in Sources */,
+				DDA92F07226FBF7B002875F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA92F0A226FBF7B002875F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA92F0B226FBF7B002875F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDA92F0F226FBF7C002875F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA92F10226FBF7C002875F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA92F13226FBF7C002875F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA92F14226FBF7C002875F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA92F16226FBF7C002875F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81539F951F1429A2F27C320 /* Pods-Ripple Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ripple Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Suciuss.Ripple-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA92F17226FBF7C002875F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EC469A299D860443412938 /* Pods-Ripple Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ripple Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Suciuss.Ripple-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA92EFE226FBF7B002875F6 /* Build configuration list for PBXProject "Ripple Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA92F13226FBF7C002875F6 /* Debug */,
+				DDA92F14226FBF7C002875F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA92F15226FBF7C002875F6 /* Build configuration list for PBXNativeTarget "Ripple Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA92F16226FBF7C002875F6 /* Debug */,
+				DDA92F17226FBF7C002875F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA92EFB226FBF7B002875F6 /* Project object */;
+}

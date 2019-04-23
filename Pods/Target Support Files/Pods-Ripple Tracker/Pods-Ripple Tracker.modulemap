@@ -1,0 +1,6 @@
+framework module Pods_Ripple_Tracker {
+  umbrella header "Pods-Ripple Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
